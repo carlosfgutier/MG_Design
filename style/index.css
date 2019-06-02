@@ -2,18 +2,22 @@ html {
     font-family: 'Dancing Script', cursive; 
 }
 
-body {
-    overflow: hidden;
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
 }
 
-h1 {}
-
 h2 {
+    font-family: 'Dancing Script', cursive;
     font-size: 30px;
     font-weight: bold;
 }
 
 h3 {}
+
+.lock-scrolling {
+    overflow: hidden;
+}
 
 .flex-around {
     display: flex;
@@ -36,14 +40,22 @@ h3 {}
     transform: rotate(-30deg);
 }
 
+.section-title {
+    position: relative;
+    top: 95px;
+    left: 260px;
+}
+
 /* HEADER */
 /* -------------------- */
 #header {
     font-size: 20px;
+    background-color: #FFFFFF;
     padding: 20px 0;
     width: 50%;
     position: fixed;
     right: 0;
+    z-index: 1;
 }
 
 #header a {
@@ -120,11 +132,8 @@ h3 {}
     background-color: #2f3725;
 }
 
-
-
-
-
-
+/* ABOUT */
+/* -------------------- */
 #about-container {
     width: 80%;
     margin: 0 auto;
@@ -137,6 +146,27 @@ h3 {}
 }
 
 #about-description {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+}
+
+/* FOTOGRAFIA */
+/* -------------------- */
+#main-projects-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 180px; 
+}
+
+.project {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.project-description {
+    padding: 0 10%;
     font-family: 'Montserrat', sans-serif;
     line-height: 40px;
 }
