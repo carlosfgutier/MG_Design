@@ -1,0 +1,142 @@
+html { 
+    font-family: 'Dancing Script', cursive; 
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 {}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.half {
+    width: 50%;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    z-index: -1;
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    -ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Safari 3-8 */
+    transform: rotate(-30deg);
+}
+
+/* HEADER */
+/* -------------------- */
+#header {
+    font-size: 20px;
+    padding: 20px 0;
+    width: 50%;
+    position: fixed;
+    right: 0;
+}
+
+#header a {
+    color: #2f3725;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: #e99233;
+}
+
+.bg-logo {
+    position: relative;
+    right: 2000px;
+    z-index: -1;
+}
+
+/* FOOTER */
+/* -------------------- */
+#footer {
+    font-size: 20px;
+    /* background-color: rgb(93, 97, 93); */
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 30%
+}
+
+#footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #e99233;
+}
+
+.oval {
+    height: 1800px;
+    width: 2000px;
+    border-radius: 50%;
+    position: fixed;
+    top: 500px;
+    right: 600px;
+}
+
+/* BACKGROUND Colors */
+/* -------------------- */
+.bg-color-pink {
+    background-color: #dd9683;
+}
+
+.bg-color-red {
+    background-color: #ca5328;
+}
+
+.bg-color-orange {
+    background-color: #e99233;
+}
+
+.bg-color-gray {
+    background-color: #869a8a;
+}
+
+.bg-color-blue {
+    background-color: #10373c;
+}
+
+.bg-color-brown {
+    background-color: #a26c2c;
+}
+
+.bg-color-black {
+    background-color: #2f3725;
+}
+
+
+
+
+
+
+#about-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 130px;
+}
+
+#about {
+    padding: 0 10%;
+}
+
+#about-description {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+}
