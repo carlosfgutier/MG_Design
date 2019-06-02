@@ -1,0 +1,126 @@
+@media only screen 
+  	and (max-device-width: 667px) 
+  	and (-webkit-min-device-pixel-ratio: 2) {
+
+
+        /* HEADER */
+        /* -------------------- */
+        #header {
+            display: none;
+        }
+        
+        #menu {
+            width: 50%;
+            font-size: 30px;
+            color: #2f3725;
+            position: relative;
+            top: 100px;
+            left: 200px;
+            text-align: center;
+            display: block;
+        }
+
+        #menu a {
+            color: #2f3725;
+            text-decoration: none;
+        }
+        
+        #menu a:hover {
+            color: #e99233;
+        }
+
+        .bg-logo {
+            position: relative;
+            right: 2000px;
+            z-index: -1;
+        }
+
+        /* ABOUT */
+        /* -------------------- */
+        #about-container {
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+            top: 40px;
+            display: block;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.726)
+        }
+        
+        #about {
+            padding: 0 10%;
+            width: 80%;
+        }
+        
+        #about-description {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 40px;
+        }
+
+        /* FOTOGRAFIA */
+        /* -------------------- */
+        #main-projects-container {
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            top: 180px; 
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.726);
+        }
+
+        .project {
+            width: 100%;
+            height: auto;
+            margin-bottom: 100px;
+            display: block;
+        }
+
+        .project-description {
+            width: 80%;
+            padding: 0 10%;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 40px;
+        }
+
+        .img-placeholder {
+            display: none;
+        }
+
+        #fotografia-title {
+            position: relative;
+            left: 220px;
+        }
+
+        /* FOOTER */
+        /* -------------------- */
+        #footer {
+            font-size: 20px;
+            background-color: #FFFFFF;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 2;
+        }
+        
+        #footer a {
+            color: #2f3725;
+            text-decoration: none;
+        }
+        
+        #footer a:hover {
+            color: #e99233;
+        }
+        
+        .oval {
+            height: 1800px;
+            width: 2000px;
+            border-radius: 50%;
+            position: fixed;
+            top: 50px;
+            right: 60px;
+        }
+
+
+
+    }

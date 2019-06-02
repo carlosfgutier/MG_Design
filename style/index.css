@@ -48,6 +48,10 @@ h3 {}
 
 /* HEADER */
 /* -------------------- */
+#menu {
+    display: none;
+}
+
 #header {
     font-size: 20px;
     background-color: #FFFFFF;
