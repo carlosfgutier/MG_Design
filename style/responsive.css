@@ -2,10 +2,9 @@
   	and (max-device-width: 667px) 
   	and (-webkit-min-device-pixel-ratio: 2) {
 
-
         /* HEADER */
         /* -------------------- */
-        #header {
+        #home-desk-container {
             display: none;
         }
         
@@ -14,8 +13,8 @@
             font-size: 30px;
             color: #2f3725;
             position: relative;
-            top: 100px;
-            left: 200px;
+            top: 120px;
+            left: 170px;
             text-align: center;
             display: block;
         }

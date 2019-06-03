@@ -1,0 +1,144 @@
+html { 
+    font-family: 'Dancing Script', cursive; 
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {}
+
+a {
+    color: #2f3725;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e99233;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    top: 40px;
+    left: 50px;
+}
+
+.section-title {
+    position: fixed;
+    top: 100px;
+    left: 250px;
+}
+
+.oval {
+    height: 1800px;
+    width: 2000px;
+    border-radius: 50%;
+    position: fixed;
+    top: 500px;
+    right: 600px;
+    z-index: -1;
+}
+
+
+/* HOME */
+/* -------------------- */
+#desk-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#header {
+    font-size: 20px;
+    background-color: #FFFFFF;
+    padding: 20px 0;
+    width: 50%;
+}
+
+#footer {
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0; 
+}
+
+#footer a {
+    color: #FFFFFF;
+}
+
+#footer a:hover {
+    color: #2f3725;
+}
+
+/* ABOUT */
+/* -------------------- */
+#about-main-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+#about {
+    width: 50%;
+    padding: 0 10%;
+}
+
+#about p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+}
+
+#about-image-container {
+    width: 50%;
+}
+
+#headshot {
+    width: 80%;
+    height: auto;
+}
+
+/* BACKGROUND Colors */
+/* -------------------- */
+.bg-color-pink {
+    background-color: #dd9683;
+}
+
+.bg-color-red {
+    background-color: #ca5328;
+}
+
+.bg-color-orange {
+    background-color: #e99233;
+}
+
+.bg-color-gray {
+    background-color: #869a8a;
+}
+
+.bg-color-blue {
+    background-color: #10373c;
+}
+
+.bg-color-brown {
+    background-color: #a26c2c;
+}
+
+.bg-color-black {
+    background-color: #2f3725;
+}
