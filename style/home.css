@@ -1,3 +1,7 @@
+#responsive-container {
+    display: none;
+}
+
 html { 
     font-family: 'Dancing Script', cursive; 
 }
@@ -106,11 +110,44 @@ a:hover {
 
 #about-image-container {
     width: 50%;
+    font-size: 20px;
+    text-align: center;
 }
 
 #headshot {
     width: 80%;
     height: auto;
+    margin-bottom: 10px;
+}
+
+/* PROJECTS */
+/* -------------------- */
+#projects-main-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    z-index: -1;
+}
+
+.image-container {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.project-row {
+    margin-bottom: 100px;
+}
+
+.project-image {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.project-description {
+    margin: 1% 10%;
 }
 
 /* BACKGROUND Colors */
