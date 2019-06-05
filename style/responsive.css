@@ -24,41 +24,65 @@
             top: 0;
             right: 0;
             z-index: -1;
+            -webkit-transition:  1s; /* For Safari 3.1 to 6.0 */
+            transition:  1s;
+        }
+
+        .expand-oval {
+            height: 100%;
+            width: 100%;
+            border-radius: 0;
+            z-index: 1;
+        }
+
+        .overpose-logo {
+            z-index: 3;
         }
 
         #home-container {
-            width: 100%;
-            height: 700px;
-            margin: 150px auto;
+            width: 100vw;
+            height: 100vh;
             position: relative; 
             /* background-color: rgba(240, 248, 255, 0.651);  */
         }
 
         .bubble {
-            height: 100px;
-            width: 100px;
+            height: 80px;
+            width: 80px;
             border-radius: 50%;
             font-size: 20px;
             text-align: center;
             color: #ffffff;
-            line-height: 95px;
+            line-height: 80px;
         }
 
         #menu-bubble {
             position: absolute;
             top: 2%;
-            left: 60%;
-            background-color: #10373c;
-            z-index: 3;
+            left: 75%;
+            z-index: 4;
         }
 
         .drop-bubble {
+            height: 78px;
+            width: 78px;
             position: absolute;
-            top: 2%;
-            left: 60%;
-            background-color: #10373c8a;
-            -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-            transition: width 2s;
+            top: 2.1%;
+            left: 75.5%;
+            -webkit-transition:  1s; /* For Safari 3.1 to 6.0 */
+            transition:  1s;
+            z-index: 3;
+        }
+
+        .home-bubble {
+            height: 70px;
+            width: 70px;
+            line-height: 65px;
+            border-radius: 50%;
+            position: absolute;
+            top: 25%;
+            left: 65%;
+            background-color: #ffffff94;
         }
 
         .fotografia-bubble {
@@ -67,9 +91,9 @@
             line-height: 125px;
             border-radius: 50%;
             position: absolute;
-            top: 15%;
+            top: 35%;
             left: 10%;
-            background-color: #10373c8a;
+            background-color: #ffffff94;
         }
 
         .about-bubble {
@@ -78,9 +102,9 @@
             line-height: 120px;
             border-radius: 50%;
             position: absolute;
-            top: 45%;
+            top: 75%;
             left: 60%;
-            background-color: #10373c8a;
+            background-color: #ffffff94;
         }
 
         .estrategias-bubble {
@@ -89,9 +113,9 @@
             line-height: 90px;
             border-radius: 50%;
             position: absolute;
-            top: 45%;
+            top: 70%;
             left: 5%;
-            background-color: #10373c8a;
+            background-color: #ffffff94;
         }
 
         .adn-bubble {
@@ -100,20 +124,20 @@
             line-height: 80px;
             border-radius: 50%;
             position: absolute;
-            top: 20%;
+            top: 45%;
             left: 52%;
-            background-color: #10373c8a;
+            background-color: #ffffff94;
         }
 
         .investigacion-bubble {
-            height: 100px;
-            width: 100px;
-            line-height: 95px;
+            height: 110px;
+            width: 110px;
+            line-height: 105px;
             border-radius: 50%;
             position: absolute;
-            top: 35%;
+            top: 60%;
             left: 35%;
-            background-color: #10373c8a;
+            background-color: #ffffff94;
         }
 
         .campanas-bubble {
@@ -122,9 +146,9 @@
             line-height: 90px;
             border-radius: 50%;
             position: absolute;
-            top: 30%;
+            top: 55%;
             left: 70%;
-            background-color: #10373c8a;
+            background-color: #ffffff94;
         }
 
         #footer {
@@ -134,7 +158,7 @@
             position: fixed;
             bottom: 0; 
             left: 0;
-            z-index: 4;
+            z-index: 1;
         }
         
         #footer a {
@@ -145,6 +169,31 @@
             color: #2f3725;
         }
 
+
+        #project-section-container {
+            width: 100%;
+            max-height: auto;
+            position: relative;
+        }
+
+        #project-container {
+            width: 80%;
+            margin: 20px auto;
+            position: relative;
+            bottom: 500px;
+            background-color: #ffffffda;
+        }
+
+        .project-image {
+            margin: 5% 10%;
+        }
+
+        .project-description {
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 40px;
+            text-align: center;
+        }
         
 
     }
